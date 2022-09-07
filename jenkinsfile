@@ -11,7 +11,7 @@ pipeline{
                 stage('sub-parallel-job'){
                     steps{
                         sh 'chmod +x yomi.sh'
-                        sh 'bash -x byomi.sh'
+                        sh 'bash -x yomi.sh'
                     }
                 }
                 stage('2-sub-parallel-job'){
