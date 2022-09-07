@@ -17,6 +17,7 @@ pipeline{
                 stage('2-sub-parallel-job'){
                     steps{
                         sh 'free -m'
+                        echo "trying pull"
                     }
                 }
             }
